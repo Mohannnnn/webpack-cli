@@ -1,9 +1,10 @@
 /*
  * @Author: wuhan  [https://github.com/Mohannnnn] 
  * @Date: 2018-10-22 20:10:25 
- * @Last Modified by:   wuhan 
- * @Last Modified time: 2018-10-22 20:10:25 
+ * @Last Modified by: wuhan
+ * @Last Modified time: 2018-10-23 10:31:00
  */
+'use strict'
 const webpack = require('webpack');
 const path = require('path');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');

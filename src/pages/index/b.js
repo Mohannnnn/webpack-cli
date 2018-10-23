@@ -1,4 +1,4 @@
 function b() {
-	
+	console.log('b')
 }
-export default b;
+module.exports = b;

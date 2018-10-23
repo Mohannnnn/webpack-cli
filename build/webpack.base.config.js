@@ -2,8 +2,9 @@
  * @Author: wuhan  [https://github.com/Mohannnnn] 
  * @Date: 2018-10-22 20:10:19 
  * @Last Modified by: wuhan
- * @Last Modified time: 2018-10-22 21:11:38
+ * @Last Modified time: 2018-10-23 19:50:02
  */
+'use strict'
 const webpack = require('webpack');
 const path = require('path');
 const glob = require('glob');
@@ -22,14 +23,14 @@ const base = {
 		rules: [
 			{
 				// 为了方便这个放在第一位
-				test: /\.css$/,
+				test: /\.(css|scss)$/,
 				use: [
 					{
 						loader : MiniCssExtractPlugin.loader,
 						options: {
                             publicPath: '../'  // 特别重要，否则css文件打包后其中引用的图片文件不正确
                         }
-					}, 'css-loader', 'postcss-loader']
+					}, 'css-loader', 'postcss-loader' , 'sass-loader']
 			},
 			{
 				test: /\.(png|jpeg|jpg|gif)$/,
