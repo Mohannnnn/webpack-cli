@@ -1,7 +1,7 @@
-# webpack-cli
+### webpack-cli
 > 基于webpack4的多页面脚手架。
 
-# 项目结构
+### 项目结构
 ```
 |-dist									#打包文件
 |
@@ -29,5 +29,5 @@
 |package.json
 |
 ```
-# 说明
+### 说明
 - 开发环境可在dev里配置代理。
