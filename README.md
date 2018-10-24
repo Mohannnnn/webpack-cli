@@ -2,10 +2,11 @@
 > 基于webpack4的多页面脚手架。
 
 ### 项目结构
+
 ```
 |-dist									#打包文件
 |
-|-build								#build目录
+|-build									#build目录
 |		webpack.base.config.js			#基础文件
 |		webpack.dev.config.js			#开发
 |		webpack.prod.config.js			#生产
@@ -29,5 +30,6 @@
 |package.json
 |
 ```
+
 ### 说明
-- 开发环境可在dev里配置代理。
+- 1.开发环境可在dev里配置代理。
