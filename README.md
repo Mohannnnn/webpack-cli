@@ -2,6 +2,7 @@
 > 基于webpack4的多页面脚手架。
 
 # 项目结构
+```shell
 |--dist									#打包文件
 |
 |--build								#build目录
@@ -27,6 +28,6 @@
 |--README.md
 |--package.json
 |
-
+```
 # 说明
 - 开发环境可在dev里配置代理。
