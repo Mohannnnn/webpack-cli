@@ -20,23 +20,23 @@ npm run build
 |-dist						    #打包文件
 |
 |-build						    #build目录
-|	webpack.base.config.js      #基础文件
-|	webpack.dev.config.js	    #开发
-|	webpack.prod.config.js	    #生产
+|   webpack.base.config.js      #基础文件
+|   webpack.dev.config.js	    #开发
+|   webpack.prod.config.js	    #生产
 |-src						    #目录文件					
-|	html                        #公用html
-|	images					    #公用image
-|	js						    #公用js
-|	style					    #公用样式
-|	pages                       #页面路径
-|		index                   #index页面（默认）
+|   html                        #公用html
+|   images					    #公用image
+|   js						    #公用js
+|   style					    #公用样式
+|   pages                       #页面路径
+|       index                   #index页面（默认）
 |		    index.js            
 |		    index.html             
 |		    index.scss          
-|	    other				    #其他页面
-|		    XXX.js
-|		    XXX.scss
-|		    XXX.html
+|       other				    #其他页面
+|           XXX.js
+|           XXX.scss
+|           XXX.html
 |.babelrc
 |README.md
 |package.json
