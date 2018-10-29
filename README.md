@@ -33,7 +33,7 @@ npm run build
 |           index.js            
 |           index.html             
 |           index.scss          
-|       other                   #其他页面
+|       other                   #other页面
 |           XXX.js
 |           XXX.scss
 |           XXX.html
