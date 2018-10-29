@@ -30,9 +30,9 @@ npm run build
 |   style                       #公用样式
 |   pages                       #页面路径
 |       index                   #index页面（默认）
-|		    index.js            
-|		    index.html             
-|		    index.scss          
+|           index.js            
+|           index.html             
+|           index.scss          
 |       other                   #其他页面
 |           XXX.js
 |           XXX.scss
