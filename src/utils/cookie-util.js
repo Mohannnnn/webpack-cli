@@ -1,10 +1,16 @@
-/**
- * Created by sina on 2016/5/20.
+/*
+ * @Author: wuhan  [https://github.com/Mohannnnn] 
+ * @Date: 2018-11-05 10:20:06 
+ * @Last Modified by: wuhan
+ * @Last Modified time: 2018-11-05 10:22:05
  */
 var reg = /[^\n\s*\r;]+=[^;]*/g;
 var cookieUtil = {
     setCookie: function (opt) {
-        var key = opt.key, value = opt.value, expires = opt.expires, date, expiresDate, cookie;
+        var key = opt.key,
+            value = opt.value,
+            expires = opt.expires,
+            date, expiresDate, cookie;
         if (key === undefined) {
             throw new Error('opt.key is undefined');
         }
@@ -33,10 +39,10 @@ var cookieUtil = {
         if (results && results.length > 0) {
             results.forEach(function (_entry) {
                 var contentList = _entry.split('=');
-               
 
-                if (contentList[0].replace(/(^\s*)|(\s*$)/g,'') == encodeURIComponent(key)) {
-                    
+
+                if (contentList[0].replace(/(^\s*)|(\s*$)/g, '') == encodeURIComponent(key)) {
+
                     value = contentList[1];
                 }
             });
@@ -48,7 +54,7 @@ var cookieUtil = {
      * @param opt
      */
     delCookie: function (opt) {
-        document.cookie = encodeURIComponent(opt.key) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT" + ( opt.domain ? "; domain=" + opt.domain : "") + ( opt.path ? "; path=" + opt.path : "");
+        document.cookie = encodeURIComponent(opt.key) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT" + (opt.domain ? "; domain=" + opt.domain : "") + (opt.path ? "; path=" + opt.path : "");
     }
 };
 
