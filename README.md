@@ -33,7 +33,7 @@ npm run build
 |           index.js            
 |           index.html             
 |           index.scss          
-|       other                   #other页面
+|       other                   #其他页面
 |           XXX.js
 |           XXX.scss
 |           XXX.html
@@ -45,4 +45,4 @@ npm run build
 
 ### 说明
 - 1.开发环境可在dev里配置代理。
-- 2.外部公用的html、js、style、images目录其实可以放在一个目录下面，这个看自己喜好吧。
+- 2.外部公用的html、js、style、images目录其实可以放在一个目录common下面，这个看自己喜好吧。
