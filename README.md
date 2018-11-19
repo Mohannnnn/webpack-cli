@@ -47,3 +47,4 @@ npm run build
 - 1.开发环境可在dev里配置代理。
 - 2.外部公用的html、js、style、images目录其实可以放在一个目录common下面，这个看自己喜好吧。
 - 3.首页localhost:8000/index.html,其他页面localhost:8000/other
+- 4.除了pages页面中的js可以为index.js，其他地方的js均不能使用index命名。
